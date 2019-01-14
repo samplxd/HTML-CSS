@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>
+			Hiperłącza, tabele, listy
+		</title>
+	</head>
+	<body bgcolor=#99ccff>
+		<a href=https://www.wp.pl/>
+			<img src=obrazy/hyperlink.gif title="Seemless loop" width=30% height=30%>
+		</a>
+		<br>
+		<a href=mailto:wisniowa1tc.1@gmail.com>
+			Wyślij maila!
+		</a>
+		<hr>
+		<!--Tabele-->
+		<table id="tabela" cellpadding=10px cellspacing=15px bgcolor=#80bfff align=center border=5px height=80% width=60% bordercolor=red>
+			<tr height=15%>
+				<th width=20%>?</th>
+				<th width=20% bgcolor=#66b3ff>??</th>
+				<th width=20% bgcolor=#4da6ff>???</th>
+				<th width=20% bgcolor=#3399ff>????</th>
+			</tr>
+			<tr height=15%>
+				<td>1</td>
+				<td>2</td>
+				<td valign=bottom align=left>3</td>
+				<td rowspan=3>4, 8 i 12</td>
+			</tr>
+			<tr height=15%>
+				<td valign=middle align=center>5</td>
+				<td colspan=2>6 i 7</td>
+			</tr>
+			<tr height=15%>
+				<td>9</td>
+				<td valign=bottom align=right>10</td>
+				<td>11</td>
+			</tr>
+		</table>
+		<hr>
+		<!--Listy uporzadkowane-->
+		<ol start=3998 type=I>
+			<li>lul</li>
+			<li>lol</li>
+			<li>lel</li>
+			<li>lxdl</li>
+		</ol>
+		<br>
+		<!--Listy nieuporzadkowane-->
+		<ul type=square>
+			<li>lul</li>
+			<li>lol</li>
+			<li>lel</li>
+			<li>lxdl</li>
+		</ul>
+		<!--Listy zagnieżdżone-->
+		<ol type=a>
+			<li><a href="#tabela"> Tabela: </a></li>
+			<li>Podpunkt a:
+				<ul type=circle>
+					<li>xd</li>
+					<li>xd</li>
+					<li>xd</li>
+				</ul>
+			</li>
+			<li>Podpunkt b:
+					<ul type=circle>
+					<li>cx</li>
+					<li>cx</li>
+					<li>cx</li>
+				</ul>
+			</li>
+		</ol>
+		<hr>
+    <!--tabela na ocene-->
+		<table id="tabela" cellpadding=10px cellspacing=0px bgcolor=#80bfff align=center border=5px  bordercolor=red>
+			<tr>
+				<td width=100px colspan=2 rowspan=3></td>
+				<td width=50px colspan=1></td>
+				<td width=100px colspan=2></td>
+				<td width=50px colspan=1></td>
+				<td width=100px colspan=2 rowspan=2></td>
+			</tr>
+			<tr>
+				<td width=150px colspan=3></td>
+				<td width=50px colspan=1></td>
+			</tr>
+			<tr>
+				<td width=50px colspan=1></td>
+				<td width=250px colspan=5 rowspan=2></td>
+			</tr>
+			<tr>
+				<td width=50px colspan=1></td>
+				<td width=50px colspan=1></td>
+				<td width=50px colspan=1></td>
+			</tr>
+			<tr>
+				<td width=400px colspan=8></td>
+			</tr>
+		</table>
+	</body>
+</html>
